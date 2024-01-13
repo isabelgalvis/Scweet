@@ -25,7 +25,7 @@ def scrape(since, until=None, words=None, to_account=None, from_account=None, me
 
     # ------------------------- Variables : 
     # header of csv
-    header = ['UserScreenName', 'UserName', 'Timestamp', 'Text', 'Embedded_text', 'Emojis', 'Comments', 'Likes', 'Retweets',
+    header = ['UserScreenName', 'UserName', 'Timestamp', 'Text', 'Embedded_text', 'Emojis', 'Comments', 'Mentions', 'Likes', 'Retweets',
                   'Image link', 'Tweet URL']
     # list that contains all data 
     data = []
