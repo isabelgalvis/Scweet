@@ -206,7 +206,7 @@ if __name__ == '__main__':
     geocode = args.geocode
     minreplies = args.minreplies
     minlikes = args.minlikes
-    minretweets = args.minlikes
+    minretweets = args.minretweets # FIXED
 
     data = scrape(since=since, until=until, words=words, to_account=to_account, from_account=from_account, mention_account=mention_account,
                 hashtag=hashtag, interval=interval, lang=lang, headless=headless, limit=limit,
